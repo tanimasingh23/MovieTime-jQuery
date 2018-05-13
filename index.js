@@ -35,7 +35,7 @@ function searchbytitle(title) {
       $.ajax({
             type: 'GET',
             dataType: 'json',
-            url: 'http://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&t='+title, 
+            url: 'https://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&t='+title, 
             success: (data) => {
                    console.log(data); 
                    let $err = $(`<div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -107,7 +107,7 @@ function searchbyyear(title,year) {
       $.ajax({
             type: 'GET',
             dataType: 'json',
-            url: 'http://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&t='+title, 
+            url: 'https://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&t='+title, 
             success: (data) => {               
                 if(data.Year == year)
                 {
@@ -194,7 +194,7 @@ function searchbyid(id) {
             type: 'GET', 
             dataType: 'json', 
             async: true,
-            url: 'http://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&i='+id, 
+            url: 'https://www.omdbapi.com/?i=tt3896198&apikey=fabdddc7'+'&i='+id, 
             success: (data) => { 
                    console.log(data); 
                     let $err = $(`<div class="alert alert-warning alert-dismissible fade show" role="alert">
