@@ -1,4 +1,4 @@
-## WhatsApp
+## MOVIETIME - jQuery AJAX
 This repository contains a webpage that enables user to search movie created using jQuery AJAX.
 Data is fetched from the API - http://www.omdbapi.com/ 
 
